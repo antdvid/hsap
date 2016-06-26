@@ -1,0 +1,212 @@
+\documentclass[12pt]{article}
+\usepackage{multicol}
+\textwidth=7in
+\textheight=9.5in
+\topmargin=-1in
+\headheight=0in
+\headsep=.5in
+\hoffset  -.85in
+
+\pagestyle{empty}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\begin{document}
+\begin{center}
+{\bf High School Apprenticeship Program (HSAP)  
+
+MWF 10:00 - 12:00 AM,
+
+Room: Mathtower 1-125  
+}
+\end{center}
+
+\setlength{\unitlength}{1in}
+
+\begin{picture}(6,.1) 
+\put(0,0) {\line(1,0){6.25}}         
+\end{picture} 
+
+\renewcommand{\arraystretch}{2}
+\vskip.25in
+\noindent\textbf{Description:}
+HSAP provides junior and senior-level high school students with an authentic science
+and engineering research experience to work alongside university researchers sponsored 
+by the Army Research Office.
+\vskip.25in
+
+\noindent\textbf{Research Project at Stony Brook:}
+Numerical Modeling of Fabric Surface and Simulation of Parachute Inflation in Turbulent Flow
+\vskip.25in
+
+\noindent\textbf{Program Coordinator:} Xiaolin Li,  Mathtower 1-122, 
+xiaolin.li@stonybrook.edu
+\vskip.25in
+
+\noindent\textbf{Research Advisor:} Zheng Gao,  Mathtower 1-125, 
+zheng.gao@stonybrook.edu
+\vskip.25in
+
+\noindent\textbf{Program Goals:}
+\begin{itemize}
+\item Provide participants with experience in developing and presenting scientific research;
+\item Provide participants with experience to develop an independent research program in preparation for research fellowships, graduate school, and careers in science and engineering research;
+\item Benefit from the expertise of a scientist or engineer as a mentor for professional and academic development purposes;
+\item Develop students' skills and background to prepare them for competitive entry to science and engineering undergraduate programs.
+\end{itemize}
+
+\noindent \textbf{Course Outline:} 
+
+\begin{center} \begin{minipage}{5in}
+\begin{flushleft}
+Linux basics \dotfill 1 week\\
+C programming \dotfill 1 week\\
+Math tools \dotfill 1 week\\
+FronTier++ \dotfill 3 weeks\\
+Parachute Simulation \dotfill 3 weeks\\
+Report and presentation \dotfill 1 week\\
+\end{flushleft}
+\end{minipage}
+\end{center}
+
+\noindent\textbf{Report:}
+Each student is required to write a 5-page report by the end of the program. The
+content could be from the lectures during this program or extra materials that are
+related to the project.
+\vskip.25in
+
+\noindent\textbf{Presentation:}
+Each student is required to give a presentation at the end of the program. The
+powerpoint is about 15 slides. The specific date and time will be announced two
+weeks before the presentation.
+\vskip.25in
+
+\newpage
+
+\section*{Linux Basics (1 week)}
+\textbf{description:}
+Get familiar with the basic Linux commands; learn to use vim to edit a file;
+know how to use SSH.
+\begin{multicols}{2}
+\begin{itemize}
+\item{About Linux and directory}
+	\subitem{Set up the environment, passwd, ssh}
+	\subitem{Listing files and directories}
+	\subitem{changing directory}
+	\subitem{the directories . and ..}
+	\subitem{Pathnames}
+	\subitem{Home directories and pathnames}
+
+\item {About Files}
+	\subitem{copying files}
+	\subitem{moving files}
+	\subitem{removing files}
+	\subitem{cat}
+	\subitem{grep}
+
+\item {Redirection}
+	\subitem{Redirection}
+	\subitem{Redirecting the output}
+	\subitem{Redirecting the input}
+	\subitem{Pipes}
+	
+\item {vi}
+	\subitem{command mode and edit mode}
+	\subitem{insert and replace}
+	\subitem{copy, cut and paste}
+	\subitem{visual mode}
+	\subitem{search and go to}
+	\subitem{search and replace}
+
+\item {Wildcards}
+	\subitem{Wildcards}
+	\subitem{Filename conventitions}
+	\subitem{getting help}
+
+\item {Permission}
+	\subitem{File system security}
+	\subitem{changing access rights}
+	\subitem{processes and jobs}
+	\subitem{Listing suspended and background processes}
+	\subitem{Killing a process}
+
+\item {Useful commands}
+	\subitem{tar and untar}
+	\subitem{top,w}
+	\subitem{Environment variables}
+\end{itemize} 
+\end{multicols}
+
+\newpage
+\section*{C Programming (1 week)}
+\textbf{description:}
+Introduction to basic C programming under Linux environment; write
+some simple C codes; debug with GDB.
+\begin{multicols}{2}
+\begin{itemize}
+\item{Hello World}
+	\subitem{Write Hello World Program}
+	\subitem{Compile and run}
+
+\item{Get to know C}
+	\subitem{Token in C}
+	\subitem{Variable}
+	\subitem{Arithmetic operation}
+	\subitem{Function}
+	\subitem{Definition and declaration}
+	
+\item{Logical Structure}
+	\subitem{logical comparison}
+	\subitem{while loop}
+	\subitem{for loop}
+	\subitem{if, else if and else}
+	\subitem{switch-case}
+	\subitem{practice: sum of 1-100 using for and while}
+	
+\item{Array and pointer}
+	\subitem{string and array}
+	\subitem{pointer and address}
+	\subitem{practice: swap two number using function}
+	\subitem{practice: reverse string}
+
+\item{Memory management}
+	\subitem{alloc, malloc, relloc, free}
+	\subitem{two dimensional array}
+	\subitem{practice: print 1-16 using matrix}
+	
+\item{Interactive program}
+	\subitem{scanf}
+	\subitem{argc and argv}
+	\subitem{practice: print 1-x using matrix, x is defined by user}	
+
+\item{Recall compiling}
+ 	\subitem{compile and link}
+ 	\subitem{makefile}
+ 	\subitem{random number generation}
+ 	\subitem{practice: guess random number}
+\end{itemize}
+\end{multicols}
+
+\newpage
+\section*{Math Tools (1 week)}
+\textbf{description:}
+Learn how to use Octave/Matlab as a research tool.
+
+\newpage
+\section*{FronTier++ (3 weeks)}
+\textbf{description:}
+Start working on FronTier++ library and run some two dimensional and three
+dimensional examples; Learn some basic background about fluid dynamics;
+know how to use VisIt/Paraview to do post-processing of data from numeri-
+cal simulations.
+
+\newpage
+\section*{Parachute Simulation (3 weeks)}
+\textbf{description:}
+Get some background about the dynamic motion of the fabric surface using
+the spring-mesh model; do some reference searching about parachute; run some
+simulations of different types of parachutes.
+
+\newpage
+\section*{Report and presentation (1 weeks)}
+\textbf{description:}
+Prepare for the presentation and write the report.
+\end{document}
