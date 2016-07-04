@@ -134,6 +134,7 @@ know how to use SSH.
 	\subitem{tar and untar}
 	\subitem{who,top,w}
 	\subitem{Environment variables}
+	\subitem{Practice: install a software from source: "cacalib"}
 \end{itemize} 
 \end{multicols}
 
@@ -191,14 +192,69 @@ some simple C codes; debug with GDB.
 \section*{Math Tools (1 week)}
 \textbf{description:}
 Learn how to use Octave/Matlab as a research tool.
+\begin{itemize}
+\item{Octave basics}
+	\subitem{Math functions: sin, cos, tan, asin, acos, atan, log, log10, exp, abs}
+	\subitem{linspace}
+	\subitem{clc,clear,close}
+	\subitem{plot, xlim, ylim, hold on}
+	\subitem{run scripts}
+	\subitem{Challenge: plot tan(x) between $[-\pi, \pi]$}
+	
+\item{Vector and matrix}
+	\subitem{row and columns vector}
+	\subitem{operator: $+, -, \ast, /, \hat{} $}
+	\subitem{element operation: $.\ast, ./, .\hat{}$}
+	\subitem{Index: A(i,j), A(:,j), A(1:end-1),j}
+	\subitem{Ranges: start : step: end; 1 : 3 : 10}
+	\subitem{Special matrix: tril(A), triu(A), eye(n), ones, zeros, rand, diag}
+	\subitem{operation: fliplr, flipud, rot90. reshape}
+	\subitem{Challenge: search diag and create a $20\times 20$ tridiagonal matrix}
+	
+\item{Plot}
+	\subitem{2d plot: plot sin(x), linetype, color}
+	\subitem{3d plot: meshgrid, surf}
+	\subitem{save image: print, file type, jpg, eps}
+	\subitem{Challenge: google and create a sphere?}
+	
+\end{itemize}
 
 \newpage
 \section*{FronTier++ (3 weeks)}
 \textbf{description:}
 Start working on FronTier++ library and run some two dimensional and three
 dimensional examples; Learn some basic background about fluid dynamics;
-know how to use VisIt/Paraview to do post-processing of data from numeri-
-cal simulations.
+know how to use VisIt to do post-processing of data from numerical simulations.
+\begin{itemize}
+\item{Set up environment}
+	\subitem{Set up environment variable}
+	\subitem{Install FronTier}
+	\subitem{Compile and Run a simple 2d example}
+	\subitem{Interpret the output: hdf, gview, vtk, run-output}
+	\subitem{Challenge: Run a 3d example}
+
+\item{Introduction to visualizing tools}
+	\subitem{geomview}
+	\subitem{xgraph}
+	\subitem{hdf2gif, animate}
+	\subitem{VisIt}
+	
+\item{Level set}
+	\subitem{Get to know level set method}
+	\subitem{Give a two dimensional example}
+	\subitem{Write a level function for circle on the paper}
+	\subitem{Insert your custom function}
+	\subitem{Challenge: Generate a 3d cone}
+	
+\item{Introduction to Fluid dynamics}
+	\subitem{Fluid properties: density, viscosity, Mach number, compressible and incompressible}
+	\subitem{Video: supersonic and sound barrier}
+	\subitem{Video: Turbulence structure}
+	\subitem{Relation to mathematics and computation, Navier-Stokes equation.}
+
+	\subitem{Homework: search and give a description of different parachutes:
+	C9,G11,T10,T11,intruder}
+\end{itemize}
 
 \newpage
 \section*{Parachute Simulation (3 weeks)}
@@ -206,8 +262,20 @@ cal simulations.
 Get some background about the dynamic motion of the fabric surface using
 the spring-mesh model; do some reference searching about parachute; run some
 simulations of different types of parachutes.
+\begin{itemize}
+\item{Introduction to computational model of parachute}
+	\subitem{Spring mass model}
+	\subitem{Canopy surface and string}
+	\subitem{Gore and vent}
+	\subitem{Fluid dynamics}
+\item{Introduction to input file}
+	\subitem{Parameters}
+\item{Run a simulation of parachute}
+\item{Prepare data and make a movie}
+	\subitem{Visit}
+\item{Discussion about research topic}
+\end{itemize}
 
-\newpage
 \section*{Report and presentation (1 weeks)}
 \textbf{description:}
 Prepare for the presentation and write the report.
